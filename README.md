@@ -3,7 +3,7 @@
 
 ### How to install
 ```
-pip install pyclock
+pip install pydatetime
 ```
 
 v1.1.1
