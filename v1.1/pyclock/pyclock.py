@@ -3,38 +3,26 @@ from datetime import time
 from datetime import datetime
 import datetime
 
-def date_today(format, year):
+def date_today(format):
 
     """Get the current date
 
     :param format: The first column on the output date
     :values: "dmy" or "mdy" or "ymd"
     :type format: str
-
-    :param year: The length of the year column 
-    :param year format: int
-    :param year values: 2 or 4 digits
     
     """
     today = date.today()
     if format == "dmy":
         today = date.today()
-        if year == 2:
-            return today.strftime("%d/%m/%y")
-        elif year == 4:
-            return today.strftime("%d/%m/%Y")
+        return today.strftime("%d/%m/%Y")   
     elif format == "mdy":
         today = date.today()
-        if year == 2:
-            return today.strftime("%m/%d/%y")
-        elif year == 4:
-            return today.strftime("%m/%d/%Y")
+        return today.strftime("%m/%d/%Y")     
     elif format == "ymd":
         today = date.today()
-        if year == 2:
-            return today.strftime("%y/%m/%d")
-        elif year == 4:
-            return today.strftime("%Y/%m/%d")
+        return today.strftime("%Y/%m/%d")
+            
 
 def time_now(format):
     """
