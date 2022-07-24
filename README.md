@@ -3,7 +3,7 @@
 
 ### How to install
 ```
-pip install pydatetime
+pip install pydatetime-v1.1.1
 ```
 
 v1.1.1
