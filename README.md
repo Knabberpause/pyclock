@@ -2,9 +2,9 @@
 ## An open-source, python library to viewing dates and times
 
 ### How to install
-'''
-pip install pyclock
-'''
+```
+pip install pydatetime-v1.1.1
+```
 
 v1.1.1
 TSMSD Knabberpause Software 2022
