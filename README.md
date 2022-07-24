@@ -1,2 +1,4 @@
-# pyclock
- An open-source, python library to viewing dates and times
+# PyClock
+## A Simple to use python datetime library
+
+
