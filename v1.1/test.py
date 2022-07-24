@@ -1,4 +1,4 @@
-from pyclock.pyclock import *
+from pydatetime.pydatetime import *
 
 print(date_today("dmy"))
 print(time_now(12))

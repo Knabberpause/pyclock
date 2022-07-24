@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "pyclock"
+name = "pydatetime"
 version = "1.1.1"
 authors = [
   { name="Seth Bailey", email="phskbailey@gmail.com" },
