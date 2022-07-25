@@ -91,3 +91,16 @@ def countdown(length):
         time.sleep(1)
     print("Done")
 
+def date_in_words(format):
+    """
+    Gets current date in word format, e.g. 31 Dec 2021
+
+    :param format: specify what length, like Dec or December
+    :type format: str
+    :values format: "short" or "full"
+    """
+    today = datetime.datetime.now()
+    if format == "short":
+        return today.strftime("%d %b %Y")
+    elif format == "full":
+        return today.strftime("%d %B %Y")
