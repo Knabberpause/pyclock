@@ -73,7 +73,6 @@ def day_weekday(day, month, year):
     :param year: Takes the year of the day
     :type year: int
     """
-
     day = datetime.datetime(year, month, day)
     return day.strftime("%A")
 
