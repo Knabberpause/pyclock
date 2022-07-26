@@ -3,7 +3,7 @@
 
 ### How to install
 ```
-pip install pydatetime-v1.1.1
+pip install pydatetime
 ```
 ### How to get the current day and time
 ```
