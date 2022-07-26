@@ -103,3 +103,14 @@ def date_in_words(format):
         return today.strftime("%d %b %Y")
     elif format == "full":
         return today.strftime("%d %B %Y")
+
+def wait(length):
+    """
+    Pauses the program for a certain amount of time
+
+    :param length: In seconds, how long the pause should be
+    :type length: int
+    """
+
+    time.sleep(length)
+    return
