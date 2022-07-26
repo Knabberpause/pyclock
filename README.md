@@ -3,7 +3,7 @@
 
 ### How to install
 ```
-pip install pydatetime-v1.1.1
+pip install pydatetime
 ```
 ### How to get the current day and time
 ```
@@ -13,7 +13,7 @@ x = current()
 print(x)
 ```
 
-v1.1.1
+v1.2
 TSMSD Knabberpause Software 2022
 
 
