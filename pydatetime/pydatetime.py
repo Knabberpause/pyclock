@@ -40,6 +40,16 @@ def time_now(format):
     elif format == 12:
         return nowtime.strftime("%I:%M:%S")
 
+def ctime(format):
+    """
+    Get the current time in a customisable format, like only seconds or minute then seconds.
+
+    :param format: The format in which it is returned, in abbreviations, like 'hms' for hour, minute, then second
+    :type format: str
+    """
+
+    
+
 def weekday(length):
     """
     Get the current weekday
@@ -114,3 +124,37 @@ def wait(length):
 
     time.sleep(length)
     return
+
+class clock:
+    def full(length, clear):
+        """
+        Counts the time sequentially, clering the screen each time if specified
+
+        :param length: In seconds, how long it should count for
+        :param clear: In binary, 0 or 1, if it should clear the terminal inbetween counts or not
+        """
+        for i in range(0, length):
+            if clear == 1:
+                os.system('cls')
+                print(time_now(24))
+                time.sleep(1)
+            elif clear == 0 :
+                print(time_now(24))
+                time.sleep(1)
+    
+    def seconds(length, clear):
+        """
+        Counts the time sequentially, clering the screen each time if specified, only using the current second
+
+        :param length: In seconds, how long it should count for
+        :param clear: In binary, 0 or 1, if it should clear the terminal inbetween counts or not
+        """
+        for i in range (0,length):
+            if clear == 1:
+                os.system('cls')
+                print(time_now(24))
+                time.sleep(1)
+            elif clear == 0 :
+                print(time_now(24))
+                time.sleep(1)
+
